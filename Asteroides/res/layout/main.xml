@@ -28,10 +28,11 @@
 
     <Button
         android:id="@+id/button2"
+        style="@style/TextoAsteroides.Botones"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Acerca_de" 
-		style="@style/TextoAsteroides.Botones"/>
+        android:onClick="lanzarAcercaDe"
+        android:text="@string/Acerca_de" />
 
     <Button
         android:id="@+id/button4"
